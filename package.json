@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+   "homepage": "https://alok0303.github.io/sae_webd",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
