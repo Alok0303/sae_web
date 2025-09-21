@@ -36,7 +36,7 @@ const Part = () => {
 
     return(
         <div className="bg-black min-h-screen w-full">
-            <h1 className="text-blue-400 pt-[100px] pl-[100px] text-[40px] font-bold" style={{ fontFamily: 'Airstrike' }}>OUR PROJECTTS</h1>
+            <h1 className="text-blue-400 pt-[100px] pl-[100px] text-[40px] font-[400] font-['Airstrike'] " >OUR PROJECTTS</h1>
             <div>
                 {
                     sections_for_ourprojects.map((sec,i) =>(
@@ -54,15 +54,15 @@ const Part = () => {
                                     </div>  
                             </div>
                             <div>
-                                <h1 className="text-red-500 text-[25px] font-semibold">{sec.title}</h1>
-                                <p  className="text-white pr-[100px] mt-[40px] text-[25px] font-semibold">{sec.description}</p>
+                                <h1 className="text-red-500 text-[25px] font-bold">{sec.title}</h1>
+                                <p  className="text-white pr-[100px] mt-[40px] text-[25px] font-thin">{sec.description}</p>
                             </div>
                         </div>
                     ))
                 }
             </div>
             {/*this one is for upcoming project */}
-            <h1 className="text-blue-400 pt-[100px] pl-[100px] text-[40px] font-bold " style={{ fontFamily: 'Airstrike' }}>UPCOMING PROJECTS</h1>
+            <h1 className="text-blue-400 pt-[100px] pl-[100px] text-[40px] font-[400] font-['Airstrike']" >UPCOMING PROJECTS</h1>
             <div>
                 {
                     section_for_upcomingprojects.map((sec,i) =>(
@@ -80,35 +80,35 @@ const Part = () => {
                                     </div>  
                             </div>
                             <div>
-                                <h1 className="text-red-500 text-[25px] font-semibold">{sec.title}</h1>
-                                <p  className="text-white pr-[100px] mt-[40px] text-[25px] font-semibold">{sec.description}</p>
+                                <h1 className="text-red-500 text-[25px] font-bold">{sec.title}</h1>
+                                <p  className="text-white pr-[100px] mt-[40px] text-[25px] font-thin">{sec.description}</p>
                             </div>
                         </div>
                     ))
                 }
             </div>
 
-            <h1 className="text-blue-400 pt-[100px] pl-[100px] text-[40px] font-bold " style={{ fontFamily: 'Airstrike' }}>Achivements</h1>
+            <h1 className="text-blue-400 pt-[100px] pl-[100px] text-[40px] font-[400] font-['Airstrike']" >Achivements</h1>
             <div className="flex justify-between px-[150px] pb-[300px]">
                 <div className="">
                     <div className="flex flex-col items-center mt-[50px]">
-                        <h1 className="text-white font-extrabold text-[35px]" >13</h1>
-                        <h6 className="text-white font-bold text-[10px] pt-1" >Rank</h6>
-                        <div className="bg-gray-500 w-fit px-[40px] py-[5px] rounded-[8px] text-center mt-[40px]">SAE ADC </div>
+                        <h1 className="text-white font-extrabold text-[35px] font-[400] font-['Airstrike']" >13</h1>
+                        <h6 className="text-white font-bold text-[10px] pt-0" >Rank</h6>
+                        <div className="bg-[#141234] w-fit px-[40px] py-[5px] rounded-[8px] text-center mt-[40px] text-white">SAE ADC </div>
                     </div> 
                 </div>
                 <div className="">
                     <div className="flex flex-col items-center mt-[50px]">
-                        <h1 className="text-white font-extrabold text-[35px]" >2</h1>
-                        <h6 className="text-white font-bold text-[10px] pt-1" >Rank</h6>
-                        <div className="bg-gray-500 w-fit px-[40px] py-[5px] rounded-[8px] text-center mt-[40px]">Agrone Cognizance 2022</div>
+                        <h1 className="text-white font-extrabold text-[35px] font-[400] font-['Airstrike']" >2</h1>
+                        <h6 className="text-white font-bold text-[10px] pt-0" >Rank</h6>
+                        <div className="bg-[#141234] w-fit px-[40px] py-[5px] rounded-[8px] text-center mt-[40px] text-white">Agrone Cognizance 2022</div>
                     </div> 
                 </div>
                 <div className="">
                     <div className="flex flex-col items-center mt-[50px]">
-                        <h1 className="text-white font-extrabold text-[35px]" >56</h1>
-                        <h6 className="text-white font-bold text-[10px] pt-1" >Rank</h6>
-                        <div className="bg-gray-500 w-fit px-[40px] py-[5px] rounded-[8px] text-center mt-[40px]">SAE Aerothon 2021</div>
+                        <h1 className="text-white font-extrabold text-[35px] font-[400] font-['Airstrike']" >56</h1>
+                        <h6 className="text-white font-bold text-[10px] pt-0" >Rank</h6>
+                        <div className="bg-[#141234] w-fit px-[40px] py-[5px] rounded-[8px] text-center mt-[40px] text-white">SAE Aerothon 2021</div>
                     </div> 
                 </div>
             </div>
